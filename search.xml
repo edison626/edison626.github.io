@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hexo命令</title>
+      <link href="/2024/07/31/hello-world/"/>
+      <url>/2024/07/31/hello-world/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><h3 id="本地运行命令"><a href="#本地运行命令" class="headerlink" title="本地运行命令"></a>本地运行命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo cl; hexo s</span><br></pre></td></tr></table></figure><h3 id="推送更新上线"><a href="#推送更新上线" class="headerlink" title="推送更新上线"></a>推送更新上线</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo cl; hexo g; hexo d</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown符号</title>
+      <link href="/2024/07/31/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/"/>
+      <url>/2024/07/31/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Markdown-常用符号"><a href="#Markdown-常用符号" class="headerlink" title="Markdown 常用符号"></a>Markdown 常用符号</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用 <code>#</code> 来创建标题，使用更多的 <code>#</code> 表示更小的标题。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 标题1</span></span><br><span class="line"><span class="section">## 标题2</span></span><br><span class="line"><span class="section">### 标题3</span></span><br><span class="line"><span class="section">#### 标题4</span></span><br><span class="line"><span class="section">##### 标题5</span></span><br><span class="line"><span class="section">###### 标题6</span></span><br></pre></td></tr></table></figure><h2 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h2><ul><li>斜体：使用 <code>*</code> 或 <code>_</code> 包围文本。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">*斜体文本*</span> 或 <span class="emphasis">_斜体文本_</span></span><br></pre></td></tr></table></figure></li><li>粗体：使用 <code>**</code> 或 <code>__</code> 包围文本。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**粗体文本**</span> 或 <span class="strong">__粗体文本__</span></span><br></pre></td></tr></table></figure></li><li>删除线：使用 <code>~~</code> 包围文本。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~删除线文本~~</span><br></pre></td></tr></table></figure></li></ul><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul><li>无序列表：使用 <code>-</code>、<code>+</code> 或 <code>*</code>。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 项目1</span><br><span class="line"><span class="bullet">-</span> 项目2</span><br><span class="line"><span class="bullet">  -</span> 子项目2.1</span><br><span class="line"><span class="bullet">  -</span> 子项目2.2</span><br></pre></td></tr></table></figure></li><li>有序列表：使用数字加点号。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">   1.</span> 子项目2.1</span><br><span class="line"><span class="bullet">   2.</span> 子项目2.2</span><br></pre></td></tr></table></figure></li></ul><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>使用 <code>[文本](URL)</code> 来创建超链接。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">OpenAI</span>](<span class="link">https://www.openai.com</span>)</span><br></pre></td></tr></table></figure><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>使用 <code>![替代文字](URL)</code> 来添加图片。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Markdown Logo</span>](<span class="link">https://markdown-here.com/img/icon256.png</span>)</span><br></pre></td></tr></table></figure><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><ul><li>行内代码：使用反引号 <code>`</code> 包围代码。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这里有一些 <span class="code">`行内代码`</span>。</span><br></pre></td></tr></table></figure></li><li>代码块：使用三个反引号 <code>```</code> 或者缩进四个空格。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">```</span></span><br><span class="line"><span class="code">def hello_world():</span></span><br><span class="line"><span class="code">    print(&quot;Hello, world!&quot;)</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## 引用</span><br><span class="line">使用 `&gt;` 来创建引用块。</span><br><span class="line">```markdown</span><br><span class="line">&gt; 这是一个引用块。</span><br><span class="line">&gt; </span><br><span class="line">&gt; 这是引用块的另一行。</span><br></pre></td></tr></table></figure></li></ul><h2 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h2><p>使用 <code>---</code>、<code>***</code> 或 <code>___</code> 来创建水平分割线。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>使用竖线 <code>|</code> 和短横线 <code>-</code> 来创建表格。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 标题1   | 标题2   |</span><br><span class="line">|---------|---------|</span><br><span class="line">| 单元格1 | 单元格2 |</span><br><span class="line">| 单元格3 | 单元格4 |</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown符号 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
